@@ -1,0 +1,54 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to top right, #4facfe, #00f2fe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-container {
+  text-align: center;
+  color: white;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  display: inline-block;
+  min-width: 250px;
+}
+
+.city-name {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.weather-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.temperature {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.weather-description {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
